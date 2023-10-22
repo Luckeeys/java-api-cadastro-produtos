@@ -15,20 +15,20 @@ Projeto destinado a criação de um modelo de currículo em formato de página w
 classDiagram
     class Produto {
         -int id
-        -string nome
-        -string descricao
-        -float preco
-        -int estoque
-        -string categoria
-        -string imagem_url
+        -string name
+        -string description
+        -float price
+        -int stock
+        -string category
+        -string image_url
     }
 
     Produto -->|tem| string : id
-    Produto -->|tem| string : nome
-    Produto -->|tem| string : descricao
-    Produto -->|tem| float : preco
-    Produto -->|tem| int : estoque
-    Produto -->|tem| string : categoria
-    Produto -->|tem| string : imagem_url
+    Produto -->|tem| string : name
+    Produto -->|tem| string : description
+    Produto -->|tem| float : price
+    Produto -->|tem| int : stock
+    Produto -->|tem| string : category
+    Produto -->|tem| string : image_url
 ```
 
