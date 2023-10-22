@@ -11,6 +11,7 @@ Projeto destinado a criação de uma API para cadastro de produtos no banco de d
 
 ## Classes
 
+```mermaid
 classDiagram
     class Produto {
         -Long id
@@ -23,9 +24,10 @@ classDiagram
     }
 
     Produto -->|tem| Long : id
-    Produto -->|tem| string : nome
-    Produto -->|tem| string : descricao
-    Produto -->|tem| BigDecimal : preco
-    Produto -->|tem| int : estoque
-    Produto -->|tem| string : categoria
-    Produto -->|tem| string : imagem_url
+    Produto -->|tem| string : name
+    Produto -->|tem| string : description
+    Produto -->|tem| BigDecimal : price
+    Produto -->|tem| int : stock
+    Produto -->|tem| string : category
+    Produto -->|tem| string : image_url
+```
