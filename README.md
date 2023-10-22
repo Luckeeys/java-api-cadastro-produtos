@@ -1,7 +1,7 @@
 
 # java-api-cadastro-produtos
 
-Projeto destinado a criação de um modelo de currículo em formato de página web
+Projeto destinado a criação de uma API para cadastro de produtos no banco de dados
 
 ## Principais Tecnologias
  - **Java 17**: Foi utilizada a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
